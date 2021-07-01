@@ -1,4 +1,4 @@
-# Plataforma de Ressarcimento do Open Banking Brasil
+# Plataforma de Ressarcimento do Open Banking Brasil [EM DESENVOLVIMENTO]
 
 Plataforma de Ressarcimento é uma plataforma tecnológica capaz de recepcionar e processar as informações de consumo de transações entre os Participantes do Open Banking Brasil.
 
@@ -26,26 +26,19 @@ A plataforma dispões de alguns módulos, conforme a seguir:
 É através deste módulo que os participantes enviarão suas informações de consumos entre participantes para que a plataforma tenha ciência e possa conciliar e contabilizar essas transações. 
 
 Cada participante deverá enviar cada transação que fora consumida por sua plataforma ou que tenha consumido de uma plataforma de terceiro. 
-É através deste módulo que os participantes enviarão suas informações de consumos entre participantes para que a plataforma tenha ciência e possa conciliar e contabilizar essas transações.
-
-Cada participante deverá enviar cada transação que fora consumida por sua plataforma ou que tenha consumido de uma plataforma de terceiro.
 
 A plataforma dispões de alguns canais de reporte, como:
 
 - Envio de transações via APIs (REST)
 - Envio de Arquivos via SFTP 
 
-#### Envio de transações via APIs
+#### Envio de transações via APIs [EM DESENVOLVIMENTO]
 O Participante deverá enviar todas as transações que envolveram a sua plataforma, sendo, consumindo informação de plataformas terceiras ou sendo consumido por estas.
 
 Para o envio de informações via APIs o Participante poderá escolher se deseja enviar o reporte de transações de maneira unitária, ou seja, conforme o consumo ocorre, ou enviar de em grupos pelo envio em massa. 
 
 ##### Reporte unitário
 Através deste modelo de notificação é possível enviar de maneira unitária cada uma das transações realizadas junto à sua plataforma. 
-Para o envio de informações via APIs o Participante poderá escolher se deseja enviar o reporte de transações de maneira unitária, ou seja, conforme o consumo ocorre, ou enviar de em grupos pelo envio em massa.
-
-##### Reporte unitário
-Através deste modelo de notificação é possível enviar de maneira unitária cada uma das transações realizadas junto à sua plataforma.
 
 ##### Reporte em massa
 Utilize o reporte em massa para enviar grupos de transações, podendo agrupá-las em pacotes maiores para evitar perdas e controle mais rígidos de reenvio.
@@ -54,28 +47,36 @@ Este modelo deve ser utilizado para Instituições Participantes que possuem um 
 
 Para saber mais sobre as APIs acesse [Portal de APIs - Plataforma de Ressarcimento do Open Banking Brasil](https://ressarcimento.opbkdev.smartfylabs.com/api-docs/)
 
-### Processamento e Cobrança
+### Processamento e Cobrança [EM DESENVOLVIMENTO]
 Este módulo é responsável por conciliar e contabilizar as transações solicitadas e processadas entre os Participantes do Open Banking Brasil. 
 
 Esta conciliação ocorrerá de maneira agendada em D+2 após o fechamento do dia. 
-Este módulo é responsável por conciliar e contabilizar as transações solicitadas e processadas entre os Participantes do Open Banking Brasil.
-
-Esta conciliação ocorrerá de maneira agendada em D+2 após o fechamento do dia.
 
 Deste modo cada Participante deverá enviar o reporte ocorridas para um dia útil em até no máximo 24 horas após o fechamento do dia (00:00 GMT-3).
 
 O Participante que perder o prazo de envio das informações deverá aguardar o relatório oficial de fechamento diário para iniciar o processo de contestação, conforme descrito no item [Módulo de Contestanção de Consumo](#módulo-de-contestação-de-consumo)
 
-### Relatórios de Consumo
+### Relatórios de Consumo [EM DESENVOLVIMENTO]
 [EM DESENVOLVIMENTO]
 Este módulo visa disponibilizar os relatórios gerenciais, analíticos e financeiros em relação ao consumo das plataformas entre transmissoras e receptoras.
 
 Uma vez realizada a concialiação e contabilização das transações entre transmissoras e receptoras, de acordo com todos os reportes de transações enviados, as empresas receberão seus relatórios de fechamento diário. Caso haja algum desencontro de informações a Instituição Participante deverá notificar esta diferença para a equipe de suporte do Ressarcimento do Open Banking Brasil através da Plataforma de Ressarcimento. A plataforma irá mediar a comunicação entre os envolvidos e dará início ao processo de análise.
 
-### Módulo de Contestanção de Consumo
+### Módulo de Contestanção de Consumo [EM DESENVOLVIMENTO]
 [EM DESENVOLVIMENTO]
 
 Para saber mais sobre as APIs acesse [Portal de APIs - Plataforma de Ressarcimento do Open Banking Brasil](https://ressarcimento.opbkdev.smartfylabs.com/api-docs/)
 
-### Portal do Participante
+### Portal do Participante [EM DESENVOLVIMENTO]
 [EM DESENVOLVIMENTO]
+
+### Conheça nossas SDKs para Desenvolvedores
+- [SDK para integração via Java](/sdks-client/java-sdk-client/README.md)
+- [SDK para integração via Kotlin](/sdks-client/kotlin-sdk-client/README.md)
+- [SDK para integração via Go](/sdks-client/go-sdk-client/README.md)
+- [SDK para integração via Python](/sdks-client/python-sdk-client/README.md)
+- [SDK para integração via C#](/sdks-client/csharp-sdk-client/README.md)
+- [SDK para integração via Java Script](/sdks-client/javascript-sdk-client/README.md)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTM2NTMyMzIxLDc3NzU3NzE3NF19
+-->
