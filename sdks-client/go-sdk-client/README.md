@@ -1,4 +1,4 @@
-# Go API client for swagger
+# Go SDK Client - Plataforma de Ressarcimento do Open Banking Brasil
 
 APIs da plataforma de Ressarcimento do Open Banking Brasil para a comunicação online com a plaforma. Através da documentação das APIs abaixo é possível realizar os devidos testes de integração.
 
