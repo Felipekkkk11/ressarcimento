@@ -1,4 +1,4 @@
-# plataforma_de_ressarcimento_do_open_banking_brasil
+# Java Script SDK Client - Plataforma de Ressarcimento do Open Banking Brasil
 
 PlataformaDeRessarcimentoDoOpenBankingBrasil - JavaScript client for plataforma_de_ressarcimento_do_open_banking_brasil
 APIs da plataforma de Ressarcimento do Open Banking Brasil para a comunicação online com a plaforma. Através da documentação das APIs abaixo é possível realizar os devidos testes de integração.
