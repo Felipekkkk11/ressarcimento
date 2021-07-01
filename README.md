@@ -26,6 +26,9 @@ A plataforma dispões de alguns módulos, conforme a seguir:
 É através deste módulo que os participantes enviarão suas informações de consumos entre participantes para que a plataforma tenha ciência e possa conciliar e contabilizar essas transações. 
 
 Cada participante deverá enviar cada transação que fora consumida por sua plataforma ou que tenha consumido de uma plataforma de terceiro. 
+É através deste módulo que os participantes enviarão suas informações de consumos entre participantes para que a plataforma tenha ciência e possa conciliar e contabilizar essas transações.
+
+Cada participante deverá enviar cada transação que fora consumida por sua plataforma ou que tenha consumido de uma plataforma de terceiro.
 
 A plataforma dispões de alguns canais de reporte, como:
 
@@ -39,6 +42,10 @@ Para o envio de informações via APIs o Participante poderá escolher se deseja
 
 ##### Reporte unitário
 Através deste modelo de notificação é possível enviar de maneira unitária cada uma das transações realizadas junto à sua plataforma. 
+Para o envio de informações via APIs o Participante poderá escolher se deseja enviar o reporte de transações de maneira unitária, ou seja, conforme o consumo ocorre, ou enviar de em grupos pelo envio em massa.
+
+##### Reporte unitário
+Através deste modelo de notificação é possível enviar de maneira unitária cada uma das transações realizadas junto à sua plataforma.
 
 ##### Reporte em massa
 Utilize o reporte em massa para enviar grupos de transações, podendo agrupá-las em pacotes maiores para evitar perdas e controle mais rígidos de reenvio.
@@ -51,6 +58,9 @@ Para saber mais sobre as APIs acesse [Portal de APIs - Plataforma de Ressarcimen
 Este módulo é responsável por conciliar e contabilizar as transações solicitadas e processadas entre os Participantes do Open Banking Brasil. 
 
 Esta conciliação ocorrerá de maneira agendada em D+2 após o fechamento do dia. 
+Este módulo é responsável por conciliar e contabilizar as transações solicitadas e processadas entre os Participantes do Open Banking Brasil.
+
+Esta conciliação ocorrerá de maneira agendada em D+2 após o fechamento do dia.
 
 Deste modo cada Participante deverá enviar o reporte ocorridas para um dia útil em até no máximo 24 horas após o fechamento do dia (00:00 GMT-3).
 
