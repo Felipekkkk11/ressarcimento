@@ -1,4 +1,4 @@
-# swagger-java-client
+# Java SDK Client - Plataforma de Ressarcimento do Open Banking Brasil
 
 Plataforma de Ressarcimento do Open Banking Brasil
 - API version: beta-0.0.1
